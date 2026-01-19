@@ -1,8 +1,31 @@
-.logo.img{
-    width: 50px;
+body{
+    background-color:white;
+}
+.logoImg{
+    width: 11050px;
     height: auto;
     position: absolute;
     top: 10px;
-    right: 10px;
+    left: 10px;
     width: 120px;
+}
+.navigationBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    gap: 10px;
+}
+.button1{
+    border: none;
+    background: none;
+    font-weight: bold;
+
+}
+.button2{
+    border: none;
+    background: #9B2D33;
+     border-radius: 8px;      
+    color: white;            
+    padding: 10px 20px;
+    font-weight: bold;
 }
