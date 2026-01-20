@@ -23,7 +23,7 @@ body{
 }
 .button1:hover{
     border: none;
-    background: #9B2D33;
+    background: #2E3094;
     border-radius: 8px;      
     color: white;            
     font-weight: bold;
@@ -46,4 +46,47 @@ body{
     color: white;            
     padding: 10px 20px;
     font-weight: bold;
+}
+.bgImg1{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-top: 15;
+    margin: auto;
+}
+.since{
+    background: #9B2D33;
+    width: 80;
+    height: auto;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+
+}
+.imgOverText{
+    position: absolute;
+    top: 60px;
+    padding-left:25 ;
+    line-height: 1;
+}
+.ourStory{
+    color: white;
+
+}
+.engineeringTrust{
+    color: #9B2D33;
+}
+.forDacades{
+    color: white;
+}
+.imgOverText h1{
+    margin: 10;
+    text-align: left;
+    font-weight: 800;
+}
+.bottomText{
+    color: rgba(245, 245, 245, 0.342);
+    font-size: 10px;
+    font-weight: lighter;
+
 }
