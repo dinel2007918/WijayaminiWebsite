@@ -21,6 +21,24 @@ body{
     font-weight: bold;
 
 }
+.button1:hover{
+    border: none;
+    background: #9B2D33;
+    border-radius: 8px;      
+    color: white;            
+    font-weight: bold;
+}
+
+.button1:active{
+    border: none;
+    background: #ffffff;
+    border-radius: 8px;      
+    color: #9B2D33;            
+    font-weight: bold;
+
+}
+
+
 .button2{
     border: none;
     background: #9B2D33;
