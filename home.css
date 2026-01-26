@@ -90,3 +90,14 @@ body{
     font-weight: lighter;
 
 }
+.historyContainer{
+    display: flex;
+    gap: 2%;
+}
+.historyText{
+    flex: 1;
+    text-align: left;
+    
+    font-size: 70%;
+}
+
