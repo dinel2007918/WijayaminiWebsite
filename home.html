@@ -7,16 +7,19 @@
 
     </head>
     <body>
-        <img src="image/logo.jpeg" class="logoImg">
+        
         <div class="navigationBar">
-            <button class="button1">Home</button>
-            <button class="button1">Products</button>
-            <button class="button1">About Us</button>
-            <button class="button2">Contact Us</button>
+            <a href="#home" class="navLink">Home</a>
+            <a href="#about" class="navLink">About Us</a>
+            <a href="#products" class="navLink">Products</a>
+            <a href="#contact" class="navLink navBtn">Contact Us</a>
         </div>
-            <img src="image/home img 1.png" class="bgImg1">
+        <img src="image/logo.jpeg" class="logoImg">
+            <h1 id="home"></h1>
+            <img src="image/home img 2.png" class="bgImg1">
         </div>
         <br><br>
+        <h1 id="about"></h1>
         <DIV class="historyContainer">
             <img src="image/history img.png" style="width: 50%; height: auto;">
             <hr style="width: 2; background-color: black;">
@@ -33,6 +36,7 @@
                     share our passion for durability and performance.</p>
                 </div>
         </DIV>
+        <h1 id="products"></h1>
         <div class="ourCore">
             <h2>Our Core</h2>
             <p>The principles that drive every decision and every sale at Wijayamini <br> Motors.</p>
@@ -60,12 +64,35 @@
             <h2>Need a specific part?</h2>
             <p>Contact our technical team today for a custom quote or expert
             advice on your next repair project.</p>
-            <button class="contact-btn">Contact Us Now</button>
+            <a href="#contact" class="contact-btn">Contact Us Now</a>
         </div>
-        <br><br>
+        <br>
         <div class="map">
             <h3>location</h3>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.1535231548773!2d80.01553762396166!3d7.223323614637593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2e3003543596d%3A0xdf229a0dd2193d03!2sWijayamini%20Motors!5e0!3m2!1sen!2slk!4v1770892536297!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        <h1 id="contact"></h1>
+        <div class="contactSection">
+            <h2>Contact Us</h2>
+            <p>Have a question or need a specific spare part? Send us a message.</p>
+
+            <form class="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Subject">
+                <textarea placeholder="Your Message" rows="5"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <footer class="footer">
+            <div class="footerContent">
+                <h3>Wijayamini Motors</h3>
+                <p>Your trusted spare parts partner.</p>
+                <p class="copyright">
+                    © 2026 Wijayamini Motors. All Rights Reserved.
+                </p>
+            </div>
+        </footer>
+
     </body>
 </html>
