@@ -13,7 +13,7 @@ body {
     position: absolute;
     top: 10px;
     left: 10px;
-    width: 120px;
+    width: 150px;
     height: auto;
 }
 
@@ -56,13 +56,22 @@ body {
 
 .bgImg1 {
     display: block;
-    width: 100%;
+    height: 100%;
+    width: auto;
     max-height: 450px;
-    object-fit: cover;
-    margin: auto;
-    border-radius: 20px;
-}
 
+    margin: 40px auto;
+
+    border-radius: 22px;
+
+    object-fit: cover;
+
+    /* Soft shadow for depth */
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+
+    /* Smooth hover animation */
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
 .historyContainer {
     display: flex;
     gap: 5%;
