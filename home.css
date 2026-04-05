@@ -147,6 +147,80 @@ body {
     line-height: 1.3;
 }
 
+/* Brands Section */
+.brandsSection {
+    padding: 60px 8%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.brandsSection h2 {
+    font-size: 32px;
+    color: #2E3094;
+    margin-bottom: 10px;
+}
+
+.brandsSection p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.brandsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.brandCard {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2E3094;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.brandCard img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.brandCard:hover img {
+    transform: scale(1.08);
+}
+
+.brandTitle {
+    padding: 20px;
+    background: white;
+    z-index: 2;
+    transition: all 0.3s ease;
+    border-top: 1px solid #f0f0f0;
+}
+
+.brandCard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 32px rgba(46, 48, 148, 0.15);
+    border-color: #2E3094;
+}
+
+.brandCard:hover .brandTitle {
+    background: #2E3094;
+    color: white;
+}
+
 .ourCore {
     padding: 60px 8%;
     background-color: #f9f9f9;
@@ -440,6 +514,10 @@ body {
 }
 
 @media (max-width: 480px) {
+    .brandsGrid {
+        grid-template-columns: 1fr;
+    }
+
     .navLink {
         padding: 8px 12px;
         font-size: 14px;
