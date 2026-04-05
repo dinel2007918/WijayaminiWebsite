@@ -80,19 +80,19 @@ body {
 }
 
 .heroSection {
-    padding: 20px 5%;
+    padding: 10px 2%;
     display: flex;
     justify-content: center;
 }
 
 .slideshowContainer {
     width: 100%;
-    max-width: 900px;
+    max-width: 100%;
     height: auto;
     overflow: hidden;
     /* Hide the images outside the box */
-    border-radius: 20px;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .slideshowWrapper {
@@ -106,7 +106,7 @@ body {
     min-width: 100%;
     /* Ensure each image takes full width of container */
     max-width: 100%;
-    height: auto;
+    height: 85vh;
     display: block;
     object-fit: cover;
 }
