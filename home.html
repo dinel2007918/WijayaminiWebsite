@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Wijayamini Motors</title>
-        <link rel="stylesheet" href="home.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        
-        <div class="navigationBar">
-            <img src="image/logo.jpeg" class="logoImg" alt="Wijayamini Motors Logo">
-            <div class="navLinks">
-                <a href="#home" class="navLink">Home</a>
-                <a href="#about" class="navLink">About Us</a>
-                <a href="#products" class="navLink">Products</a>
-                <a href="#contact" class="navLink navBtn">Contact Us</a>
+
+<head>
+    <title>Wijayamini Motors</title>
+    <link rel="stylesheet" href="home.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <div class="navigationBar">
+        <img src="image/logo.jpeg" class="logoImg" alt="Wijayamini Motors Logo">
+        <div class="hamburger" id="hamburger">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        <div class="navLinks" id="navLinks">
+            <a href="#home" class="navLink">Home</a>
+            <a href="#about" class="navLink">About Us</a>
+            <a href="#products" class="navLink">Products</a>
+            <a href="#contact" class="navLink navBtn">Contact Us</a>
+        </div>
+    </div>
+
+    <h1 id="home" style="display: none;">Home</h1>
+    <div class="heroSection">
+        <div class="slideshowContainer">
+            <div class="slideshowWrapper" id="slideshowWrapper">
+                <img src="image/home img 1.png" class="bgImg1 slide" alt="Home Image 1">
+                <img src="image/home img 2.png" class="bgImg1 slide" alt="Home Image 2">
+                <img src="image/home img 3.jpeg" class="bgImg1 slide" alt="Home Image 3">
             </div>
         </div>
-        
-        <h1 id="home" style="display: none;">Home</h1>
-        <div class="heroSection">
-            <img src="image/home img 2.png" class="bgImg1" alt="Home Image">
-        </div>
-        
-        <div id="about" class="historyContainer">
-            <img src="image/history img.png" alt="History Image">
-            <hr class="verticalDivider">
-            <div class="historyText">
-                <h2>HISTORY & COMMITMENT TO <br> QUALITY</h2>
-                <p>From our humble beginnings as a small shop to
+    </div>
+
+    <div id="about" class="historyContainer">
+        <img src="image/history img.png" alt="History Image">
+        <hr class="verticalDivider">
+        <div class="historyText">
+            <h2>HISTORY & COMMITMENT TO <br> QUALITY</h2>
+            <p>From our humble beginnings as a small shop to
                 becoming a leading spare parts provider, Wijayamini Motors
                 has always prioritized reliability and precision in every
                 component we sell.
@@ -36,68 +49,116 @@
                 We believe that every vehicle on the road represents a life
                 and a livelihood. That's why we uphold robust engineering
                 standards, sourcing only from certified manufacturers who
-                share our passion for durability and performance.</p>
-            </div>
+                share our passion for durability and performance.
+            </p>
         </div>
+    </div>
 
-        <div id="products" class="ourCore">
-            <h2>Our Core</h2>
-            <p>The principles that drive every decision and every sale at Wijayamini Motors.</p>
-            <div class="textCards">
-                <div class="textCard">
-                    <h4>Authenticity</h4>
-                    <p>We deal exclusively in genuine, high-performance parts.
+    <div id="products" class="ourCore">
+        <h2>Our Core</h2>
+        <p>The principles that drive every decision and every sale at Wijayamini Motors.</p>
+        <div class="textCards">
+            <div class="textCard">
+                <h4>Authenticity</h4>
+                <p>We deal exclusively in genuine, high-performance parts.
                     No compromises, no counterfeits—only what your vehicle deserves.</p>
-                </div>
-                <div class="textCard">
-                    <h4>Expertise</h4>
-                    <p>Our team possesses decades of technical knowledge in complex
+            </div>
+            <div class="textCard">
+                <h4>Expertise</h4>
+                <p>Our team possesses decades of technical knowledge in complex
                     engine, transmission, and chassis components.</p>
-                </div>
-                <div class="textCard">
-                    <h4>Customer Service</h4>
-                    <p>We provide personalized advice for every repair, ensuring you
+            </div>
+            <div class="textCard">
+                <h4>Customer Service</h4>
+                <p>We provide personalized advice for every repair, ensuring you
                     get exactly what you need without overspending.</p>
-                </div>
             </div>
         </div>
+    </div>
 
-        <div class="contactUs">
-            <h2>Need a specific part?</h2>
-            <p>Contact our technical team today for a custom quote or expert
+    <div class="contactUs">
+        <h2>Need a specific part?</h2>
+        <p>Contact our technical team today for a custom quote or expert
             advice on your next repair project.</p>
-            <a href="#contact" class="contact-btn">Contact Us Now</a>
+        <a href="#contact" class="contact-btn">Contact Us Now</a>
+    </div>
+
+    <div class="map">
+        <h3>Location</h3>
+        <div class="mapContainer">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.1535231548773!2d80.01553762396166!3d7.223323614637593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2e3003543596d%3A0xdf229a0dd2193d03!2sWijayamini%20Motors!5e0!3m2!1sen!2slk!4v1770892536297!5m2!1sen!2slk"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+    </div>
 
-        <div class="map">
-            <h3>Location</h3>
-            <div class="mapContainer">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.1535231548773!2d80.01553762396166!3d7.223323614637593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2e3003543596d%3A0xdf229a0dd2193d03!2sWijayamini%20Motors!5e0!3m2!1sen!2slk!4v1770892536297!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+    <div id="contact" class="contactSection">
+        <h2>Contact Us</h2>
+        <p>Have a question or need a specific spare part? Send us a message.</p>
+
+        <form class="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Subject">
+            <textarea placeholder="Your Message" rows="5"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="footerContent">
+            <h3>Wijayamini Motors</h3>
+            <p>Your trusted spare parts partner.</p>
+            <p class="copyright">
+                © 2026 Wijayamini Motors. All Rights Reserved.
+            </p>
         </div>
+    </footer>
 
-        <div id="contact" class="contactSection">
-            <h2>Contact Us</h2>
-            <p>Have a question or need a specific spare part? Send us a message.</p>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
 
-            <form class="contactForm">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <input type="text" placeholder="Subject">
-                <textarea placeholder="Your Message" rows="5"></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
 
-        <footer class="footer">
-            <div class="footerContent">
-                <h3>Wijayamini Motors</h3>
-                <p>Your trusted spare parts partner.</p>
-                <p class="copyright">
-                    © 2026 Wijayamini Motors. All Rights Reserved.
-                </p>
-            </div>
-        </footer>
+        // Close menu when clicking a link
+        document.querySelectorAll('.navLink').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
 
-    </body>
+        // Slideshow logic (Sliding animation)
+        let slideIndex = 0;
+        const slides = document.querySelectorAll('.slide');
+        const wrapper = document.getElementById('slideshowWrapper');
+
+        function showSlides() {
+            if (slides.length === 0) return;
+
+            slideIndex++;
+            if (slideIndex >= slides.length) {
+                slideIndex = 0; // Loop back to the first slide
+            }
+
+            // Move the wrapper to the left by sliding the width of one image
+            const slideWidth = slides[0].clientWidth;
+            wrapper.style.transform = `translateX(-${slideIndex * 100}%)`;
+
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+
+        // Start the slide delay instead of calling immediately, so image 1 shows first
+        setTimeout(showSlides, 3000);
+
+        // Handle window resize to keep it aligned
+        window.addEventListener('resize', () => {
+            wrapper.style.transform = `translateX(-${slideIndex * 100}%)`;
+        });
+    </script>
+</body>
+
 </html>
