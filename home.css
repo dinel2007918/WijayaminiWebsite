@@ -430,6 +430,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    .bgImg1 {
+        height: auto;
+    }
+
     .navigationBar {
         flex-direction: row;
         padding: 15px 20px;
@@ -511,6 +515,10 @@ body {
 }
 
 @media (max-width: 480px) {
+    .bgImg1 {
+        height: auto;
+    }
+
     .brandsGrid {
         grid-template-columns: 1fr;
     }
