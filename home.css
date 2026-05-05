@@ -351,49 +351,46 @@ body {
     margin-bottom: 40px;
 }
 
-.contactForm {
-    max-width: 600px;
-    margin: auto;
+.contactActionBtns {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: 20px;
-    background: white;
-    padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    margin-top: 30px;
 }
 
-.contactForm input,
-.contactForm textarea {
-    width: 100%;
-    padding: 15px;
-    border-radius: 10px;
-    border: 1px solid #ddd;
-    font-size: 16px;
-    font-family: inherit;
-    transition: border-color 0.3s;
-}
-
-.contactForm input:focus,
-.contactForm textarea:focus {
-    outline: none;
-    border-color: #2E3094;
-}
-
-.contactForm button {
-    background: #2E3094;
-    color: white;
-    border: none;
-    padding: 16px;
-    border-radius: 10px;
+.actionBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 40px;
+    border-radius: 30px;
     font-size: 18px;
     font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s ease;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-.contactForm button:hover {
-    background: #1f2270;
+.callBtn {
+    background-color: #2E3094;
+    color: white;
+}
+
+.callBtn:hover {
+    background-color: #1f2270;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(46, 48, 148, 0.3);
+}
+
+.whatsappBtn {
+    background-color: #25D366;
+    color: white;
+}
+
+.whatsappBtn:hover {
+    background-color: #1ebe57;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(37, 211, 102, 0.3);
 }
 
 .footer {
@@ -534,8 +531,13 @@ body {
         font-size: 24px;
     }
 
-    .contactForm {
-        padding: 25px;
+    .contactActionBtns {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .actionBtn {
+        width: 100%;
     }
 
     .map iframe {
